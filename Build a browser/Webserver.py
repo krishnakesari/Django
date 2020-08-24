@@ -1,4 +1,4 @@
-from socket import *
+import socket
 
 def createServer():
     serversocket = socket(AF_INET, SOCK_STREAM)
